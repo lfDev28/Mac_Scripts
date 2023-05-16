@@ -6,6 +6,7 @@ repo_name=$1
 
 cwd=$(pwd)
 echo "Creating a new repository named $repo_name in $cwd"
+source "/Users/Lee/Desktop/Dev/scripts/github_repo_macro/venv/bin/activate"
 cd "/Users/Lee/Desktop/Dev/scripts/github_repo_macro"
 python3 app.py $repo_name
 
