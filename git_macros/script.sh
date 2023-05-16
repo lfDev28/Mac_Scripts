@@ -1,7 +1,7 @@
 cwd=$(pwd)
 commit_msg=$1
 
-echo $commit_msg
+echo "commit message = " $commit_msg
 
 cd $cwd
 
